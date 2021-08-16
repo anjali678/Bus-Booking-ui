@@ -26,7 +26,7 @@ const router = new VueRouter({
             component: () => import( '../views/register.vue')
         },
         {
-            path: '/main',
+            path: '',
             component: () => import( '../views/users/main.vue'),
             children: [
                 {
