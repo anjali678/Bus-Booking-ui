@@ -38,7 +38,7 @@ const router = new VueRouter({
                     path: '/bus-route/seats',
                     name: 'Sheet Booking',
                     component: () => import( '../views/users/seatsBooking.vue')
-                },
+                }
             ]
         },
     ]
