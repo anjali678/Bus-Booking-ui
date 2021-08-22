@@ -26,7 +26,7 @@ const router = new VueRouter({
             component: () => import( '../views/register.vue')
         },
         {
-            path: '',
+            path: "",
             component: () => import( '../views/users/main.vue'),
             children: [
                 {
@@ -36,7 +36,7 @@ const router = new VueRouter({
                 },
                 {
                     path: '/bus-route/seats',
-                    name: 'Sheet Booking',
+                    name: 'Seats Booking',
                     component: () => import( '../views/users/seatsBooking.vue')
                 }
             ]
